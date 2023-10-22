@@ -16,3 +16,11 @@ conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl sciki
 
 ## pyqt5 conda install
 conda install -c anaconda pyqt
+
+## 아나콘다 자체를 최신으로 업데이트
+(base) conda update conda
+(base) conda update anaconda
+(base) conda update -n base conda
+
+## conda 패키지 전체 업데이트
+(base) conda update -all
