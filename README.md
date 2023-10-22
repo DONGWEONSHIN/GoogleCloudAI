@@ -10,3 +10,9 @@ Google Cloud 기반 인공지능 개발자 과정
 ### git을 리셋 함
 - git reflog
 - git reset --hard HEAD@{16}
+
+## conda 패키지 설치 (초반 필수 패키지)
+conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl scikit-learn
+
+## pyqt5 conda install
+conda install -c anaconda pyqt
