@@ -22,6 +22,6 @@ conda update conda
 ## use conda to update Anaconda to the latest version
 conda update anaconda
 ## updates all packages in the current environment to the latest version
-conda update -all
+conda update --all
 ## update other environments
 conda update -n myenv --all
