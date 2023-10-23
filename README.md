@@ -25,3 +25,12 @@ conda update anaconda
 conda update --all
 ## update other environments
 conda update -n myenv --all
+
+
+
+## VS Code Marketplace
+- Python
+- Jupyter
+- Rainbow CSV
+- Excel Viewer
+- Python Extension Pack
