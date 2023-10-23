@@ -11,6 +11,20 @@ Google Cloud 기반 인공지능 개발자 과정
 - git reflog
 - git reset --hard HEAD@{16}
 
+### git 폴더 전체 업로드하기
+- git add .
+- git commit -m 'log'
+- git push origin main
+
+### git 폴더 업로드시 에러날때
+- rm -rf .git / 제대로 추가 안된 폴더의 .git 폴더 제거
+- git rm -rf --cached / 해당폴더를 실행하여 git cache를 제거
+- git add . / 폴더를 git에 추가
+
+
+
+
+
 ### conda 패키지 설치 (초반 필수 패키지)
 - conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl scikit-learn
 
