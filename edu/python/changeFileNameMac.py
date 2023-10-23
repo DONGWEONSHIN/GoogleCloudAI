@@ -1,4 +1,9 @@
-# Python Version : 3.9
+# Python : 3.9.18
+# Numpy : 1.26.0
+# Pandas : 2.1.1
+# Matplotlib : 3.7.2
+# Seaborn : 0.12.2
+# Scikit-learn : 1.3.0
 # Created: OCT. 11. 2023
 # Author: D.W. SHIN
 # Mac에서 파일명 변환하기

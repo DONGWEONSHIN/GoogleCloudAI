@@ -1,9 +1,12 @@
-# %% factCheck py file version
-# Python Version : 3.9.18
-# Pandas Version : 2.1.1
-# Matplotlib Version : 3.8.0
+# Python : 3.9.18
+# Numpy : 1.26.0
+# Pandas : 2.1.1
+# Matplotlib : 3.7.2
+# Seaborn : 0.12.2
+# Scikit-learn : 1.3.0
 # Created: OCT. 18. 2023
 # Author: D.W. SHIN
+# factCheck py file version
 
 import platform
 import os

@@ -1,9 +1,13 @@
-# Python Version : 3.9
+# Python : 3.9.18
+# Numpy : 1.26.0
+# Pandas : 2.1.1
+# Matplotlib : 3.7.2
+# Seaborn : 0.12.2
+# Scikit-learn : 1.3.0
 # Created: OCT. 10. 2023
 # Author: D.W. SHIN
 # 구구단 프린트 하기
 # 가변으로 단 변경하기
-
 
 # startBase = 2
 # endBase = 9

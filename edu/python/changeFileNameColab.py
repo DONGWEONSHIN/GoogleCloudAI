@@ -1,4 +1,9 @@
-# Python Version : Google Colab
+# Python : Google Colab
+# Numpy : *
+# Pandas : *
+# Matplotlib : *
+# Seaborn : *
+# Scikit-learn : *
 # Created: OCT. 10. 2023
 # Author: D.W. SHIN
 # Google Colab을 사용하여 파일명 변경하기
