@@ -11,24 +11,24 @@ Google Cloud 기반 인공지능 개발자 과정
 - git reflog
 - git reset --hard HEAD@{16}
 
-## conda 패키지 설치 (초반 필수 패키지)
-conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl scikit-learn
+### conda 패키지 설치 (초반 필수 패키지)
+- conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl scikit-learn
 
-## pyqt5 conda install
-conda install -c anaconda pyqt
+### pyqt5 conda install
+- conda install -c anaconda pyqt
 
-## update the conda package manager to the latest version
-conda update conda
-## use conda to update Anaconda to the latest version
-conda update anaconda
-## updates all packages in the current environment to the latest version
-conda update --all
-## update other environments
-conda update -n myenv --all
+### update the conda package manager to the latest version
+- conda update conda
+### use conda to update Anaconda to the latest version
+- conda update anaconda
+### updates all packages in the current environment to the latest version
+- conda update --all
+### update other environments
+- conda update -n myenv --all
 
 
 
-## VS Code Marketplace
+### VS Code Marketplace
 - Python
 - Jupyter
 - Rainbow CSV
