@@ -21,6 +21,9 @@ Google Cloud 기반 인공지능 개발자 과정
 - git rm -rf --cached / 해당폴더를 실행하여 git cache를 제거
 - git add . / 폴더를 git에 추가
 
+### git 한글 깨짐 현상
+- git config --global core.quotepath false
+
 
 
 
