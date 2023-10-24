@@ -34,6 +34,9 @@ Google Cloud 기반 인공지능 개발자 과정
 ### pyqt5 conda install
 - conda install -c anaconda pyqt
 
+### Graphviz is an open source graph visualization software
+- conda install -c anaconda graphviz
+
 ### update the conda package manager to the latest version
 - conda update conda
 ### use conda to update Anaconda to the latest version
