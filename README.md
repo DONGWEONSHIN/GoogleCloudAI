@@ -37,6 +37,15 @@ Google Cloud 기반 인공지능 개발자 과정
 ### Graphviz is an open source graph visualization software
 - conda install -c anaconda graphviz
 
+### conda-forge / packages / xgboost
+- conda install -c conda-forge xgboost
+
+### conda-forge / packages / lightgbm
+- conda install -c conda-forge lightgbm
+
+### conda-forge / packages / catboost
+- conda install -c conda-forge catboost
+
 ### update the conda package manager to the latest version
 - conda update conda
 ### use conda to update Anaconda to the latest version
