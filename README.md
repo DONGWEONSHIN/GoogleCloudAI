@@ -46,6 +46,9 @@ Google Cloud 기반 인공지능 개발자 과정
 ### conda-forge / packages / catboost
 - conda install -c conda-forge catboost
 
+### conda-forge / packages / missingno
+- conda install -c conda-forge missingno
+
 ### update the conda package manager to the latest version
 - conda update conda
 ### use conda to update Anaconda to the latest version
