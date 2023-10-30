@@ -28,14 +28,56 @@ Google Cloud 기반 인공지능 개발자 과정
 
 
 
-### conda 패키지 설치 (초반 필수 패키지)
-- conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl scikit-learn
+### anaconda / packages / jupyter
+- conda install -c anaconda jupyter
 
-### pyqt5 conda install
+### anaconda / packages / ipykernel
+- conda install -c anaconda ipykernel
+
+### anaconda / packages / numpy 
+- conda install -c anaconda numpy
+
+### anaconda / packages / pandas
+- conda install -c anaconda pandas
+
+### anaconda / packages / matplotlib
+- conda install -c anaconda matplotlib
+
+#### conda-forge / packages / matplotlib
+- conda install -c conda-forge matplotlib
+
+### anaconda / packages / seaborn
+- conda install -c anaconda seaborn
+
+### anaconda / packages / xlrd
+- conda install -c anaconda xlrd
+
+#### conda-forge / packages / xlrd
+- conda install -c conda-forge xlrd
+
+### anaconda / packages / openpyxl
+- conda install -c anaconda openpyxl
+
+#### conda-forge / packages / openpyxl
+- conda install -c conda-forge openpyxl
+
+### anaconda / packages / scikit-learn
+- conda install -c anaconda scikit-learn
+
+### anaconda / packages / notebook
+- conda install -c anaconda notebook
+
+#### conda-forge / packages / notebook
+- conda install -c conda-forge notebook
+
+### anaconda / packages / pyqt
 - conda install -c anaconda pyqt
 
-### Graphviz is an open source graph visualization software
+### anaconda / packages / graphviz
 - conda install -c anaconda graphviz
+
+#### conda-forge / packages / graphviz
+- conda install -c conda-forge graphviz
 
 ### conda-forge / packages / xgboost
 - conda install -c conda-forge xgboost
@@ -49,8 +91,11 @@ Google Cloud 기반 인공지능 개발자 과정
 ### conda-forge / packages / missingno
 - conda install -c conda-forge missingno
 
-### anaconda / packages / notebook
-- conda install -c anaconda notebook
+
+
+
+
+
 
 ### update the conda package manager to the latest version
 - conda update conda
