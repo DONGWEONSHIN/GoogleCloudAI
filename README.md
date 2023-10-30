@@ -26,7 +26,7 @@ Google Cloud 기반 인공지능 개발자 과정
 
 
 
-
+- conda install -y jupyter ipykernel notebook numpy pandas matplotlib seaborn xlrd openpyxl scikit-learn
 
 ### anaconda / packages / jupyter
 - conda install -c anaconda jupyter
@@ -78,6 +78,8 @@ Google Cloud 기반 인공지능 개발자 과정
 
 #### conda-forge / packages / graphviz
 - conda install -c conda-forge graphviz
+
+- conda install -c conda-forge -y xgboost lightgbm catboost missingno
 
 ### conda-forge / packages / xgboost
 - conda install -c conda-forge xgboost
