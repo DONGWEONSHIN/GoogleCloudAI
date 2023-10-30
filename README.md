@@ -49,6 +49,9 @@ Google Cloud 기반 인공지능 개발자 과정
 ### conda-forge / packages / missingno
 - conda install -c conda-forge missingno
 
+### anaconda / packages / notebook
+- conda install -c anaconda notebook
+
 ### update the conda package manager to the latest version
 - conda update conda
 ### use conda to update Anaconda to the latest version
@@ -67,3 +70,8 @@ Google Cloud 기반 인공지능 개발자 과정
 - Excel Viewer
 - Python Extension Pack
 - GitLens — Git supercharged
+
+### other python 3.8
+- pip install numpy pandas matplotlib seaborn scikit-learn notebook
+- jupyter lab
+
