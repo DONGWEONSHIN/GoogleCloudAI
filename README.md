@@ -39,9 +39,9 @@ Google Cloud 기반 인공지능 개발자 과정
 - conda install -c anaconda graphviz
 
 ### 추가 패키지
-- conda install -c conda-forge notebook scikit-learn xgboost lightgbm catboost
+- conda install -c conda-forge scikit-learn xgboost lightgbm catboost
 
-#### conda-forge / packages / graphviz
+### conda-forge / packages / graphviz
 - conda install -c conda-forge graphviz
 
 ### conda-forge / packages / missingno
@@ -72,7 +72,10 @@ Google Cloud 기반 인공지능 개발자 과정
 - Python Extension Pack
 - GitLens — Git supercharged
 
-### other python 3.8
-- pip install numpy pandas matplotlib seaborn scikit-learn notebook
+
+
+
+### jupyter 시작시
+- jupyter notebook
 - jupyter lab
 
