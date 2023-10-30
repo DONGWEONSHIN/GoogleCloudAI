@@ -25,72 +25,24 @@ Google Cloud 기반 인공지능 개발자 과정
 - git config --global core.quotepath false
 
 
-### 기본 설치
-- conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl scikit-learn
 
-### anaconda / packages / jupyter
-- conda install -c anaconda jupyter
 
-### anaconda / packages / notebook
-- conda install -c anaconda notebook
 
-#### conda-forge / packages / notebook
-- conda install -c conda-forge notebook
 
-### anaconda / packages / ipykernel
-- conda install -c anaconda ipykernel
+### 기본 패키지
+- conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl
 
-### anaconda / packages / numpy 
-- conda install -c anaconda numpy
-
-### anaconda / packages / pandas
-- conda install -c anaconda pandas
-
-### anaconda / packages / matplotlib
-- conda install -c anaconda matplotlib
-
-#### conda-forge / packages / matplotlib
-- conda install -c conda-forge matplotlib
-
-### anaconda / packages / seaborn
-- conda install -c anaconda seaborn
-
-### anaconda / packages / xlrd
-- conda install -c anaconda xlrd
-
-#### conda-forge / packages / xlrd
-- conda install -c conda-forge xlrd
-
-### anaconda / packages / openpyxl
-- conda install -c anaconda openpyxl
-
-#### conda-forge / packages / openpyxl
-- conda install -c conda-forge openpyxl
-
-### anaconda / packages / scikit-learn
-- conda install -c anaconda scikit-learn
-
-### 추가 설치
 ### anaconda / packages / pyqt
 - conda install -c anaconda pyqt
 
 ### anaconda / packages / graphviz
 - conda install -c anaconda graphviz
 
+### 추가 패키지
+- conda install -c conda-forge notebook scikit-learn xgboost lightgbm catboost
+
 #### conda-forge / packages / graphviz
 - conda install -c conda-forge graphviz
-
-### 추가 패키지
-- conda install -c conda-forge -y xgboost lightgbm catboost missingno
-
-### conda-forge / packages / xgboost
-- conda install -c conda-forge xgboost
-
-### conda-forge / packages / lightgbm
-- conda install -c conda-forge lightgbm
-
-### conda-forge / packages / catboost
-- conda install -c conda-forge catboost
 
 ### conda-forge / packages / missingno
 - conda install -c conda-forge missingno
