@@ -25,11 +25,17 @@ Google Cloud 기반 인공지능 개발자 과정
 - git config --global core.quotepath false
 
 
-
-- conda install -y jupyter ipykernel notebook numpy pandas matplotlib seaborn xlrd openpyxl scikit-learn
+### 기본 설치
+- conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl scikit-learn
 
 ### anaconda / packages / jupyter
 - conda install -c anaconda jupyter
+
+### anaconda / packages / notebook
+- conda install -c anaconda notebook
+
+#### conda-forge / packages / notebook
+- conda install -c conda-forge notebook
 
 ### anaconda / packages / ipykernel
 - conda install -c anaconda ipykernel
@@ -64,12 +70,7 @@ Google Cloud 기반 인공지능 개발자 과정
 ### anaconda / packages / scikit-learn
 - conda install -c anaconda scikit-learn
 
-### anaconda / packages / notebook
-- conda install -c anaconda notebook
-
-#### conda-forge / packages / notebook
-- conda install -c conda-forge notebook
-
+### 추가 설치
 ### anaconda / packages / pyqt
 - conda install -c anaconda pyqt
 
@@ -79,6 +80,7 @@ Google Cloud 기반 인공지능 개발자 과정
 #### conda-forge / packages / graphviz
 - conda install -c conda-forge graphviz
 
+### 추가 패키지
 - conda install -c conda-forge -y xgboost lightgbm catboost missingno
 
 ### conda-forge / packages / xgboost
