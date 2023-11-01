@@ -47,8 +47,8 @@ Google Cloud 기반 인공지능 개발자 과정
 ### conda-forge / packages / missingno
 - conda install -c conda-forge missingno
 
-
-
+### conda-forge / packages / opencv
+- conda install -c conda-forge opencv
 
 
 
