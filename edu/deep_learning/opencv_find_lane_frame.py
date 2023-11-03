@@ -84,6 +84,16 @@ while True:
         cv2.copyTo(frame, mask, white)
         cv2.imshow('mask_all', mask_all)
         
+        lines = cv2.HoughLinesP(mask_all, 1, np.pi / 180., 90, minLineLength=120, maxLineGap=180)
+        
+        if lines is not None:
+            for i in range(lines.shape[0]):
+                pt1 = (lines[i][0][0], lines[i][0][1])  # 시작점 좌표
+                pt2 = (lines[i][0][2], lines[i][0][3])  # 끝점 좌표
+                cv2.line(frame, pt1, pt2, (0, 0, 255), 2, cv2.LINE_AA)
+        
+        cv2.imshow('frame_dest', frame)        
+        
         
     frameNum += 1
 
