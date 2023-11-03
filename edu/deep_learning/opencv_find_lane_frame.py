@@ -58,7 +58,7 @@ while True:
     
     if frameNum % frame_fps == 0:
         fileName = os.path.join(SAVE_DIR, 'video' + str(frameNum) + '.jpg')
-        cv2.imwrite(fileName, frame, [cv2.IMWRITE_JPEG_QUALITY, 90])
+        # cv2.imwrite(fileName, frame, [cv2.IMWRITE_JPEG_QUALITY, 90])
         
         img_shape = frame.shape
 
