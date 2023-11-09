@@ -64,6 +64,10 @@ Google Cloud 기반 인공지능 개발자 과정
 
 
 
+
+### matplotlib 한글화
+- !pip install koreanize_matplotlib
+
 ### VS Code Marketplace
 - Python
 - Jupyter
