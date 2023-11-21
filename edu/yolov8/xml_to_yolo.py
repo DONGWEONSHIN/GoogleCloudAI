@@ -41,4 +41,4 @@ def load_xml_annotations(f):
 
     anns.append([image_filename, width, height, boxes])
 
-  return np.array(anns)
+  return np.array(anns, dtype="object")
