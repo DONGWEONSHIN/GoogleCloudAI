@@ -4,7 +4,6 @@
 
 
 
-![Binaryhood](Logo/BinaryhoodLogo.png)
 
 # ChatBot
 
