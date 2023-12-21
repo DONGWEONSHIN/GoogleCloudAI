@@ -1,8 +1,0 @@
-.DS_Store
-.env
-.mypy_cache
-.vscode
-
-
-migrations/
-*/__pycache__/
