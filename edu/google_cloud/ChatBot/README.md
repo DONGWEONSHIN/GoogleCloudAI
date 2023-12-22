@@ -1,7 +1,96 @@
+## ChatBot 실행 및 사용 방법
+
+### Chatbot 만들기
+
+1. git에서 다운로드
+
+```
+git clone https://github.com/binary-hood/ChatBot.git
+```
+
+2. 가상환경 설정
+
+```
+conda create -n chatbot_venv phthon=3.9
+```
+
+3. 가상환경 접속
+
+```
+conda activate chatbot_venv
+```
+
+4. 필수 패키지 설치
+
+```
+pip install -r requirements.txt
+```
+
+5. 폴더로 이동
+
+```
+cd ChatBot
+```
+
+6. flask 실행
+
+```
+python app.py
+```
+
+### Gemini 로 모델 바꾸기
+
+1. 참고 git 사이트
+```
+git clone https://github.com/GoogleCloudPlatform/generative-ai.git
+```
+
+2. 참고 자료
+```
+-> gemini/getting-started/intro_gemini_python.ipynb
+```
+
+3. google-cloud-aiplatform 패키지 설치
+```
+! pip3 install --upgrade --user google-cloud-aiplatform
+```
+
+4. gcloud 패키지 설치
+```
+https://cloud.google.com/sdk/docs/install?hl=ko
+```
+
+4.1. Pick cloud project to use: 
+
+==> (현재 GCP 프로젝트 명 선택)
+
+4.2. Do you want to configure a default Compute Region and Zone? (Y/n)? 
+
+==> (Y)
+
+4.3 Please enter numeric choice or text value (must exactly match list item):
+
+==> ([7] us-central)
+
+4.4 GCP 로그인
+```
+gcloud auth login
+```
+
+5. gcp project ID 확인 후 환경설정 하기
+```
+gcloud config set project {PROJECT_ID}
+```
+
+6. Vertex AI SDK - Install (Palm2)
+```
+!pip3 install google-cloud-aiplatform>=1.25 "shapely<2.0.0" --quiet
+```
 
 
 ## 원본 출처
 - https://github.com/binary-hood/ChatBot/tree/main
+
 
 
 
