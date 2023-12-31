@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+import markdown
 
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -12,8 +13,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # PaLM2 설정
 # from langchain.embeddings import VertexAIEmbeddings
 
-tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
-model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
+# microsoft/DialoGPT-medium 설정
+# tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
+# model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
 
 # Gemini 설정
 genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
@@ -47,8 +49,7 @@ def chat():
     # text_embedding = embeddings.embed_query(input)
     # llm_result = text_embedding
     
-    
-    return llm_result
+    return markdown.markdown(llm_result, extensions=['extra'])
     # return get_Chat_response(input)
 
 
