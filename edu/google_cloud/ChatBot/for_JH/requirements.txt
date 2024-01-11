@@ -1,0 +1,14 @@
+Flask
+Markdown
+
+google-cloud-aiplatform
+python-dotenv
+
+langchain-google-vertexai
+
+# 01. gcloud CLI 설치
+# https://cloud.google.com/sdk/docs/install?hl=ko#linux
+
+# 02. auth 확인
+# https://cloud.google.com/python/docs/setup#linux
+# gcloud auth application-default login
