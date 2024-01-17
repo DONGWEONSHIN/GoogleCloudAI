@@ -12,3 +12,10 @@ langchain-google-vertexai
 # 02. auth 확인
 # https://cloud.google.com/python/docs/setup#linux
 # gcloud auth application-default login
+
+# llama-2 설치
+# 01. llama-2-7b-chat.ggmlv3.q2_K.bin 모델 다운 받기
+# https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+# 02. pip install ctransformers==0.1.0
+
+# ctransformers
