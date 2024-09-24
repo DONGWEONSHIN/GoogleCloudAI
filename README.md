@@ -32,6 +32,9 @@ Google Cloud 기반 인공지능 개발자 과정
 ### 기본 패키지
 - conda install -y jupyter ipykernel pandas matplotlib seaborn xlrd openpyxl
 
+### Black 포메터
+conda install -c conda-forge black
+
 ### anaconda / packages / pyqt
 - conda install -c anaconda pyqt
 
