@@ -71,10 +71,20 @@ jupyter notebook
 
 ---
 
+## 📁 추가 프로젝트
+
+### 1. [YOLO 기반 객체 탐지 프로젝트](https://github.com/sesac-google-ai-1st/shin_yolo_repo.git)
+- **설명**: YOLO 모델을 활용하여 객체 탐지 모델을 학습 및 테스트한 프로젝트입니다.
+
+### 2. [LLM 기반 AI 프로젝트](https://github.com/DONGWEONSHIN/llm_is_all_you_need.git)
+- **설명**: 대규모 언어 모델(LLM)을 활용하여 다양한 자연어 처리 태스크를 수행한 프로젝트입니다.
+
+---
+
 ## 📖 참고 자료
 
-- [Google Cloud AI 공식 문서](https://cloud.google.com/ai/docs)
-- [YOLO 공식 문서](https://github.com/ultralytics/yolov5)
+- [Google Cloud Vertex AI 공식 문서](https://cloud.google.com/vertex-ai/docs)
+- [YOLO 공식 문서](https://docs.ultralytics.com/models/yolov8/)
 
 ---
 
