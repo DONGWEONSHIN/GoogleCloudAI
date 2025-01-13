@@ -33,7 +33,7 @@ GoogleCloudAI는 **Google Cloud를 활용한 AI 개발 교육**을 지원하기 
   - 신경망의 구조 및 역전파 원리
   - TensorFlow/Keras를 이용한 모델 구현
 
-### 5. [YOLO를 활용한 객체 탐지](./edu/yolo8)
+### 5. [YOLO를 활용한 객체 탐지](./edu/yolov8)
 - **내용 요약**: YOLO 모델을 활용하여 객체 탐지 실습 진행.
 - **주요 학습 사항**:
   - YOLO의 원리 및 모델 구조
