@@ -60,8 +60,10 @@ cd GoogleCloudAI
 ```
 
 ### 3. 필수 패키지 설치
+각 Jupyter 노트북을 실행하기 전에, 해당 노트북의 첫 번째 셀에 명시된 패키지들을 설치하세요. 일반적으로 다음과 같은 명령어를 사용합니다:
+
 ```bash
-pip install -r requirements.txt
+pip install 패키지이름
 ```
 
 ### 4. Jupyter 노트북 실행
